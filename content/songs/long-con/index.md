@@ -2,11 +2,12 @@
 date = '2025-05-20T11:39:07-06:00'
 draft = true
 title = 'The Long Con'
+type = 'songs'
 +++
 
-![Bryce Canyon National Park](cover-long.webp)
-![Bryce Canyon National Park](lyrics-long.webp)
-![Bryce Canyon National Park](back-long.webp)
+![Cover](cover-long.webp)
+![Lyrics](lyrics-long.webp)
+![Back](back-long.webp)
 
 Verse 1
 : This world spins backwards, but I’m movin’ on,
