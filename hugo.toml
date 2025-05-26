@@ -1,0 +1,4 @@
+baseURL = 'https://owneroperators.online/'
+languageCode = 'en-us'
+title = 'OWNER OPERATORS'
+theme = 'owneroperators'
