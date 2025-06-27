@@ -2,12 +2,13 @@
 date = '2025-05-20T11:39:07-06:00'
 draft = true
 title = 'Digital Love Glitch'
+
+album = 'Demo Album 2025'
+
+cover = 'cover-glitch.webp'
+lyrics = 'lyrics-glitch.webp'
+back = 'back-glitch.webp'
 +++
-
-![Bryce Canyon National Park](cover-glitch.webp)
-![Bryce Canyon National Park](lyrics-glitch.webp)
-![Bryce Canyon National Park](back-glitch.webp)
-
 
 Verse 1
 : In the year 3050, robots wore tutus and sang

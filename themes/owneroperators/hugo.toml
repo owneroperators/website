@@ -1,6 +1,6 @@
-baseURL = 'https://example.org/'
+baseURL = 'https://owneroperators.online/'
 languageCode = 'en-US'
-title = 'My New Hugo Site'
+title = 'Owner Operators'
 
 [menus]
   [[menus.main]]
@@ -9,16 +9,23 @@ title = 'My New Hugo Site'
     weight = 10
 
   [[menus.main]]
-    name = 'Posts'
-    pageRef = '/posts'
+    name = 'Songs'
+    pageRef = '/songs'
     weight = 20
-
-  [[menus.main]]
-    name = 'Tags'
-    pageRef = '/tags'
-    weight = 30
 
 [module]
   [module.hugoVersion]
     extended = false
     min = '0.146.0'
+
+[[params.social]]
+  name = "GitHub"
+  url = "https://github.com/owneroperators"
+
+[[params.social]]
+  name = "Bandcamp"
+  url = "https://owneroperators.bandcamp.com/"
+
+[[params.social]]
+  name = "Instagram"
+  url = "https://www.instagram.com/owneroperators.mp4"

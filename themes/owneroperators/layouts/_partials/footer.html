@@ -1,1 +1,7 @@
+<ul class="social-links">
+  {{ range .Site.Params.social }}
+    <li><a href="{{ .url }}" target="_blank" rel="noopener">{{ .name }}</a></li>
+  {{ end }}
+</ul>
+
 <p>Copyright {{ now.Year }} | Rack and Pinecone | All rights reserved.</p>

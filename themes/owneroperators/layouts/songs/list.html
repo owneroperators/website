@@ -1,0 +1,29 @@
+{{ define "main" }}
+    <h1>Songs</h1>
+
+    {{ $songs := .Pages.GroupByParam "album" }}
+
+    {{ range $songs }}
+
+        {{/* Sanitize the album name to match the data file name */}}
+        {{ $slug := replace (lower .Key) " " "-" }}
+
+        {{ with site.Data.albums }}
+            {{ with index . $slug }}
+                <h2>{{ .title }}</h2>
+                <p>{{ .description }}</p>
+
+                <div class="album">
+                    <img src="{{ .image }}" alt="Cover for {{ .title }}" class="album-cover">
+
+                    <ol>
+                        {{ range (index $songs 0).Pages }}
+
+                        <li><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></li>
+                        {{ end }}
+                    </ol>
+                </div>
+            {{ end }}
+        {{ end }}
+    {{ end }}
+{{ end }}

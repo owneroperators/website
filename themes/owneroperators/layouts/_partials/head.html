@@ -3,3 +3,8 @@
 <title>{{ if .IsHome }}{{ site.Title }}{{ else }}{{ printf "%s | %s" .Title site.Title }}{{ end }}</title>
 {{ partialCached "head/css.html" . }}
 {{ partialCached "head/js.html" . }}
+
+{{ if eq .IsPage true }}
+<script src="https://cdn.jsdelivr.net/npm/@glidejs/glide"></script>
+<link rel="stylesheet" href="https://unpkg.com/@glidejs/glide@3.3.0/dist/css/glide.core.min.css">
+{{ end }}
