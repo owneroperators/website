@@ -1,11 +1,9 @@
 +++
 date = '2025-05-20T11:39:07-06:00'
-draft = true
+draft = false
 title = 'The Long Con'
 type = 'songs'
-
 album = 'Demo Album 2025'
-
 cover = 'cover-long.webp'
 lyrics = 'lyrics-long.webp'
 back = 'back-long.webp'

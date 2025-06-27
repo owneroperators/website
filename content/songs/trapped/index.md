@@ -1,6 +1,6 @@
 +++
 date = '2025-05-20T11:39:07-06:00'
-draft = true
+draft = false
 title = 'Trapped'
 type = 'songs'
 
